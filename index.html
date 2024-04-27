@@ -37,7 +37,28 @@
 
         console.log("Add element at start position using unshift function:");
         names.unshift("yuvraj");
+        console.log(names);
+        
+        console.log("remove element at start position using shift function:");
+        names.shift();
         console.log(names); 
+
+        console.log("Add and delete elements at once using splice function:");
+        names.splice( 3 , 1 , "aditya" ,"karan");
+        console.log(names); 
+
+        console.log("array to string using join function :");
+        console.log(names.join("  "));
+
+        console.log("reverse the array using reverse function :");
+        console.log(names.reverse());
+
+        console.log("sort array in ascending using sort function :");
+        console.log(names.sort());
+
+        console.log("sort array in decending using sort function :");
+        console.log(names.sort().reverse());
+
 </script>
 </body>
 </html>
